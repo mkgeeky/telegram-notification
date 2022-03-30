@@ -13,6 +13,7 @@ A simple bash file to send notifications to telegram :muscle:
 * Clone this repo to your server
 `git clone https://github.com/mkgeeky/telegram-notification.git`
 * Rename **notification_sample.sh** to **notification.sh**
+`mv notification_sample.sh notification.sh`
 * Make notification.sh executeable
 `chmod +x /PathTo/notification.sh`
 * Edit notification.sh with the IDs from above

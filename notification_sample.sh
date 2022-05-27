@@ -1,5 +1,11 @@
+#############################
+# This script is made by: mkgeeky
+# Web: https://mkgeeky.xyz
+# Git: https://github.com/mkgeeky/
+# Mail: contact@mkgeeky.xyz
+# Lines above MAY NOT BE removed!
+#############################
 #!/bin/bash
-# mkgeeky -> https://github.com/mkgeeky/telegram-notification
 die() { echo "$*" 1>&2 ; exit 1; }
 LOGFILE="notification.log"
 log() { echo "[`date +"%Y-%m-%d %T"`]: $*" >> $LOGFILE; }
